@@ -1,0 +1,34 @@
+{
+  "id": 6,
+  "robots": [
+    {"id": "arnold", "name": "Arnold"},
+    {"id": "bbatc", "name": "BBATC"}
+  ],
+  "startingBaskets": ["blue", "magenta"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["blue", "magenta"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-2.14, -0.89],
+    [2.14, 0.89],
+    [1.52, -0.22],
+    [-1.52, 0.22],
+    [2.18, -1.35],
+    [-2.18, 1.35],
+    [-1.82, -0.49],
+    [1.82, 0.49],
+    [-0.64, -0.17],
+    [0.64, 0.17]
+  ]
+}
