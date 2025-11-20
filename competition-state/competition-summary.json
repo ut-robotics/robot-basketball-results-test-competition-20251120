@@ -405,10 +405,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 7,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1763662969547, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -484,79 +484,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 5,
+    "id": 6,
     "robots": [
-      {"id": "imbi", "name": "Imbi"},
-      {"id": "1_9-tdi", "name": "1.9 TDI"}
+      {"id": "arnold", "name": "Arnold"},
+      {"id": "bbatc", "name": "BBATC"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [[], []],
-        "fouls": [[], [{"time": 1763662472278}, {"time": 1763662502804}]],
+        "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60050,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 8,
         "timeLimit": 60000,
         "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1763662415550, "endTime": 1763662446471},
-          {"startTime": 1763662487568, "endTime": 1763662490415},
-          {"startTime": 1763662509295, "endTime": 1763662535577}
-        ]
-      },
-      {
-        "scores": [[], [{"time": 1763662714749, "isValid": true}]],
-        "fouls": [[], [{"time": 1763662665533}]],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60092,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1763662618870, "endTime": 1763662658094},
-          {"startTime": 1763662695759, "endTime": 1763662716627}
-        ]
-      },
-      {
-        "scores": [[], []],
-        "fouls": [[], [{"time": 1763662818620}, {"time": 1763662847781}]],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60095,
-        "timeLimit": 60000,
-        "winnerIndex": -1,
-        "runs": [
-          {"startTime": 1763662780863, "endTime": 1763662809823},
-          {"startTime": 1763662836943, "endTime": 1763662840190},
-          {"startTime": 1763662859886, "endTime": 1763662887774}
-        ]
+        "runs": [{"startTime": 1763662969547, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "1_9-tdi", "name": "1.9 TDI"},
-      "roundWinCount": 1,
-      "roundLossCount": 0,
-      "roundTieCount": 2
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-2.05, 0.39],
-      [2.05, -0.39],
-      [1.09, -1.23],
-      [-1.09, 1.23],
-      [-0.96, 1.44],
-      [0.96, -1.44],
-      [-1.51, 0.79],
-      [1.51, -0.79],
-      [1.71, 0.88],
-      [-1.71, -0.88]
+      [-2.14, -0.89],
+      [2.14, 0.89],
+      [1.52, -0.22],
+      [-1.52, 0.22],
+      [2.18, -1.35],
+      [-2.18, 1.35],
+      [-1.82, -0.49],
+      [1.82, 0.49],
+      [-0.64, -0.17],
+      [0.64, 0.17]
     ]
   }
 }
