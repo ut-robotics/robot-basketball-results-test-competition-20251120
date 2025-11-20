@@ -397,7 +397,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": true,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -426,18 +426,24 @@
             ],
             "fouls": [[{"time": 1763663136873}], []],
             "baskets": ["magenta", "blue"],
-            "hasEnded": false,
-            "isConfirmed": false,
-            "duration": 27247,
+            "hasEnded": true,
+            "isConfirmed": true,
+            "duration": 60041,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 1,
             "runs": [
               {"startTime": 1763663084375, "endTime": 1763663090879},
-              {"startTime": 1763663168223, "endTime": null}
+              {"startTime": 1763663168223, "endTime": 1763663221760}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "bbatc", "name": "BBATC"},
+          "roundWinCount": 2,
+          "roundLossCount": 0,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [-2.14, -0.89],
@@ -451,9 +457,124 @@
           [-0.64, -0.17],
           [0.64, 0.17]
         ]
+      },
+      {
+        "id": 7,
+        "robots": [
+          {"id": "arnold", "name": "Arnold"},
+          {"id": "hugo-toom", "name": "Hugo Toom"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.59, 0.08],
+          [1.59, -0.08],
+          [0.99, 0.11],
+          [-0.99, -0.11],
+          [1.22, -0.97],
+          [-1.22, 0.97],
+          [1.38, -0.15],
+          [-1.38, 0.15],
+          [-0.49, -1.1],
+          [0.49, 1.1]
+        ]
+      },
+      {
+        "id": 8,
+        "robots": [
+          {"id": "zz", "name": "ZZ"},
+          {"id": "1_9-tdi", "name": "1.9 TDI"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.52, -0.51],
+          [-0.52, 0.51],
+          [-1.75, 0.07],
+          [1.75, -0.07],
+          [1.59, 0.4],
+          [-1.59, -0.4],
+          [-0.71, -0.57],
+          [0.71, 0.57],
+          [-1.56, 0.98],
+          [1.56, -0.98]
+        ]
+      },
+      {
+        "id": 9,
+        "robots": [
+          {"id": "polva-passat", "name": "Põlva Passat"},
+          {"id": "bbatc", "name": "BBATC"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": true,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [-1.59, -0.69],
+          [1.59, 0.69],
+          [-1.76, 1.27],
+          [1.76, -1.27],
+          [-1.73, -1.12],
+          [1.73, 1.12],
+          [-0.86, 1.17],
+          [0.86, -1.17],
+          [1.31, -0.13],
+          [-1.31, 0.13]
+        ]
       }
     ],
-    "byes": [{"robotID": "arnold"}, {"robotID": "polva-passat"}],
+    "byes": [
+      {"robotID": "arnold"},
+      {"robotID": "polva-passat"},
+      {"robotID": "imbi"}
+    ],
     "robotScores": [
       {
         "robot": {"id": "polva-passat", "name": "Põlva Passat"},
@@ -462,33 +583,33 @@
         "rank": 1
       },
       {
+        "robot": {"id": "imbi", "name": "Imbi"},
+        "score": 1.8,
+        "tieBreakScore": 2.5,
+        "rank": 2
+      },
+      {
+        "robot": {"id": "bbatc", "name": "BBATC"},
+        "score": 1.7,
+        "tieBreakScore": 2,
+        "rank": 3
+      },
+      {
         "robot": {"id": "zz", "name": "ZZ"},
         "score": 1.5,
-        "tieBreakScore": 0.8,
-        "rank": 2
+        "tieBreakScore": 1.8,
+        "rank": 4
       },
       {
         "robot": {"id": "1_9-tdi", "name": "1.9 TDI"},
         "score": 1,
-        "tieBreakScore": 1.5,
-        "rank": 3
+        "tieBreakScore": 3.5,
+        "rank": 5
       },
       {
         "robot": {"id": "arnold", "name": "Arnold"},
         "score": 1,
-        "tieBreakScore": 0,
-        "rank": 4
-      },
-      {
-        "robot": {"id": "imbi", "name": "Imbi"},
-        "score": 0.8,
-        "tieBreakScore": 2.5,
-        "rank": 5
-      },
-      {
-        "robot": {"id": "bbatc", "name": "BBATC"},
-        "score": 0.7,
-        "tieBreakScore": 1,
+        "tieBreakScore": 1.7,
         "rank": 6
       },
       {
@@ -500,12 +621,12 @@
     ],
     "robotStartingBaskets": {
       "imbi": ["magenta", "blue"],
-      "zz": ["blue", "magenta"],
-      "hugo-toom": ["blue", "blue"],
-      "polva-passat": ["magenta"],
-      "bbatc": ["blue", "magenta"],
-      "arnold": ["blue"],
-      "1_9-tdi": ["magenta", "magenta"]
+      "zz": ["blue", "magenta", "magenta"],
+      "hugo-toom": ["blue", "blue", "magenta"],
+      "polva-passat": ["magenta", "magenta"],
+      "bbatc": ["blue", "magenta", "blue"],
+      "arnold": ["blue", "blue"],
+      "1_9-tdi": ["magenta", "magenta", "blue"]
     },
     "hasEnded": false
   },
@@ -517,7 +638,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -546,18 +667,24 @@
         ],
         "fouls": [[{"time": 1763663136873}], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": false,
-        "isConfirmed": false,
-        "duration": 27247,
+        "hasEnded": true,
+        "isConfirmed": true,
+        "duration": 60041,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 1,
         "runs": [
           {"startTime": 1763663084375, "endTime": 1763663090879},
-          {"startTime": 1763663168223, "endTime": null}
+          {"startTime": 1763663168223, "endTime": 1763663221760}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "bbatc", "name": "BBATC"},
+      "roundWinCount": 2,
+      "roundLossCount": 0,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [-2.14, -0.89],

@@ -26,16 +26,20 @@
       {"id": "1_9-tdi", "name": "1.9 TDI"}
     ],
     "roundCount": 3,
-    "gameIDs": [1, 2, 3, 4, 5, 6],
-    "byes": [{"robotID": "arnold"}, {"robotID": "polva-passat"}],
+    "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "byes": [
+      {"robotID": "arnold"},
+      {"robotID": "polva-passat"},
+      {"robotID": "imbi"}
+    ],
     "robotStartingBaskets": {
       "imbi": ["magenta", "blue"],
-      "zz": ["blue", "magenta"],
-      "hugo-toom": ["blue", "blue"],
-      "polva-passat": ["magenta"],
-      "bbatc": ["blue", "magenta"],
-      "arnold": ["blue"],
-      "1_9-tdi": ["magenta", "magenta"]
+      "zz": ["blue", "magenta", "magenta"],
+      "hugo-toom": ["blue", "blue", "magenta"],
+      "polva-passat": ["magenta", "magenta"],
+      "bbatc": ["blue", "magenta", "blue"],
+      "arnold": ["blue", "blue"],
+      "1_9-tdi": ["magenta", "magenta", "blue"]
     },
     "hasEnded": false
   }
