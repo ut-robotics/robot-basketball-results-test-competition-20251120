@@ -24,12 +24,13 @@
       "scores": [[{"time": 1763662248796, "isValid": true}], []],
       "fouls": [[], [{"time": 1763662209043}]],
       "baskets": ["blue", "magenta"],
-      "hasEnded": false,
+      "hasEnded": true,
       "isConfirmed": false,
       "roundMaxLength": 60000,
       "runs": [
         {"startTime": 1763662179510, "endTime": 1763662203399},
-        {"startTime": 1763662245142, "endTime": 1763662273854}
+        {"startTime": 1763662245142, "endTime": 1763662273854},
+        {"startTime": 1763662291297, "endTime": 1763662298753}
       ]
     }
   ],
