@@ -3,7 +3,7 @@
   "robots": [{"id": "zz", "name": "ZZ"}, {"id": "1_9-tdi", "name": "1.9 TDI"}],
   "startingBaskets": ["magenta", "blue"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [[{"time": 1763663891263, "isValid": true}], []],
@@ -44,7 +44,7 @@
       "fouls": [[{"time": 1763664282691}], []],
       "baskets": ["magenta", "blue"],
       "hasEnded": true,
-      "isConfirmed": false,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
       "runs": [
         {"startTime": 1763664243302, "endTime": 1763664276693},
