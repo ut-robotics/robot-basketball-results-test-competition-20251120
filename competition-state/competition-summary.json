@@ -40,10 +40,10 @@
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 4296,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1763660299112, "endTime": 1763660303408}]
           }
         ],
         "status": {"result": "unknown"},
@@ -191,5 +191,39 @@
       "1_9-tdi": ["magenta"]
     },
     "hasEnded": false
+  },
+  "activeGame": {
+    "id": 1,
+    "robots": [{"id": "imbi", "name": "Imbi"}, {"id": "zz", "name": "ZZ"}],
+    "startingBaskets": ["magenta", "blue"],
+    "isTieAllowed": true,
+    "hasEnded": false,
+    "rounds": [
+      {
+        "scores": [[], []],
+        "fouls": [[], []],
+        "baskets": ["magenta", "blue"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 4296,
+        "timeLimit": 60000,
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1763660299112, "endTime": 1763660303408}]
+      }
+    ],
+    "status": {"result": "unknown"},
+    "ballPlacement": [
+      [0, 0],
+      [-0.12, 0.69],
+      [0.12, -0.69],
+      [1.73, 0.88],
+      [-1.73, -0.88],
+      [-2.17, 1.24],
+      [2.17, -1.24],
+      [0.76, -0.13],
+      [-0.76, 0.13],
+      [-0.99, 0.14],
+      [0.99, -0.14]
+    ]
   }
 }
