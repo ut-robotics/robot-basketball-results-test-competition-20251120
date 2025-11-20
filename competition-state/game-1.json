@@ -1,0 +1,31 @@
+{
+  "id": 1,
+  "robots": [{"id": "imbi", "name": "Imbi"}, {"id": "zz", "name": "ZZ"}],
+  "startingBaskets": ["magenta", "blue"],
+  "isTieAllowed": true,
+  "hasEnded": false,
+  "rounds": [
+    {
+      "scores": [[], []],
+      "fouls": [[], []],
+      "baskets": ["magenta", "blue"],
+      "hasEnded": false,
+      "isConfirmed": false,
+      "roundMaxLength": 60000,
+      "runs": []
+    }
+  ],
+  "ballPlacement": [
+    [0, 0],
+    [-0.12, 0.69],
+    [0.12, -0.69],
+    [1.73, 0.88],
+    [-1.73, -0.88],
+    [-2.17, 1.24],
+    [2.17, -1.24],
+    [0.76, -0.13],
+    [-0.76, 0.13],
+    [-0.99, 0.14],
+    [0.99, -0.14]
+  ]
+}
