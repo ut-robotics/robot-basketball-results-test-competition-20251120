@@ -11,35 +11,5 @@
     {"id": "robotina-robotica", "name": "Robotina Robotica"},
     {"id": "zz", "name": "ZZ"}
   ],
-  "tournament": {
-    "swissEnabled": true,
-    "numberOfSwissRounds": 3,
-    "doubleEliminationEnabled": false
-  },
-  "swissSystemTournament": {
-    "robots": [
-      {"id": "1_9-tdi", "name": "1.9 TDI"},
-      {"id": "robotina-robotica", "name": "Robotina Robotica"},
-      {"id": "bbatc", "name": "BBATC"},
-      {"id": "arnold", "name": "Arnold"},
-      {"id": "polva-passat", "name": "Põlva Passat"},
-      {"id": "hugo-toom", "name": "Hugo Toom"},
-      {"id": "imbi", "name": "Imbi"},
-      {"id": "zz", "name": "ZZ"}
-    ],
-    "roundCount": 3,
-    "gameIDs": [1, 2, 3, 4],
-    "byes": [],
-    "robotStartingBaskets": {
-      "1_9-tdi": ["magenta"],
-      "robotina-robotica": ["blue"],
-      "bbatc": ["magenta"],
-      "arnold": ["blue"],
-      "polva-passat": ["blue"],
-      "hugo-toom": ["magenta"],
-      "imbi": ["blue"],
-      "zz": ["magenta"]
-    },
-    "hasEnded": false
-  }
+  "tournament": null
 }
