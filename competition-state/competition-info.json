@@ -1,6 +1,15 @@
 {
   "id": "test-competition-20251120",
   "name": "Test Competition 2025-11-20",
-  "robots": [],
+  "robots": [
+    {"id": "1_9-tdi", "name": "1.9 TDI"},
+    {"id": "arnold", "name": "Arnold"},
+    {"id": "bbatc", "name": "BBATC"},
+    {"id": "hugo-toom", "name": "Hugo Toom"},
+    {"id": "imbi", "name": "Imbi"},
+    {"id": "polva-passat", "name": "Põlva Passat"},
+    {"id": "robotina-robotica", "name": "Robotina Robotica"},
+    {"id": "zz", "name": "ZZ"}
+  ],
   "tournament": null
 }
