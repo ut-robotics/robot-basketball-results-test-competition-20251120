@@ -3,7 +3,7 @@
   "robots": [{"id": "imbi", "name": "Imbi"}, {"id": "zz", "name": "ZZ"}],
   "startingBaskets": ["magenta", "blue"],
   "isTieAllowed": true,
-  "hasEnded": false,
+  "hasEnded": true,
   "rounds": [
     {
       "scores": [
@@ -44,7 +44,7 @@
       "fouls": [[], []],
       "baskets": ["magenta", "blue"],
       "hasEnded": true,
-      "isConfirmed": false,
+      "isConfirmed": true,
       "roundMaxLength": 60000,
       "runs": [{"startTime": 1763660886518, "endTime": 1763660946563}]
     }
